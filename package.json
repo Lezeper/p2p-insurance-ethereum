@@ -1,0 +1,34 @@
+{
+  "name": "p2p-insurance-chain",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "author": "Lewis",
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "ethereumjs-tx": "^1.3.3",
+    "express": "^4.16.2",
+    "fs-extra": "^5.0.0",
+    "ganache-cli": "^6.0.3",
+    "lodash": "^4.17.5",
+    "mocha": "^5.0.1",
+    "next": "^4.1.4",
+    "next-routes": "^1.3.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "semantic-ui-css": "^2.2.14",
+    "semantic-ui-react": "^0.78.2",
+    "solc": "^0.4.20",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "^1.0.0-beta.30"
+  },
+  "devDependencies": {
+    "fs": "0.0.1-security"
+  }
+}
