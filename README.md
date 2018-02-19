@@ -1,5 +1,5 @@
 # P2P Insurance Concept Application
-This concept application is trying to implement a P2P insurance product by using smart contract. The idea insurance product would be the product which has deterministic result in specific date. For example, travel or package delay insurance. Insured can propose a insurance(contract) that specific on when the airline/package should be arrived. After insured paid his premium(detemind by himself), the other people can contribute to this contract to match the premium untill the amount of all contributions are equal to the premium.
+This concept application is trying to implement a P2P insurance product by using smart contract. The idea insurance product would be the product which has deterministic result in specific date. For example, travel or package delay insurance. Insured can propose a insurance(contract) that specific on when the airline/package should be arrived. After insured paid his premium(detemind by himself), the other people can contribute to this contract to match the premium untill the total amount of contributions are equal to the premium.
 
 ## Getting Start
 On the end user side, it required the wallet plugin, for example, MetaMask.
@@ -9,6 +9,7 @@ On the end user side, it required the wallet plugin, for example, MetaMask.
 > node ethereum/deploy
 // write down the address, put it as FACTORY_ADDRESS in environment file
 // add .env on the root folder, add .env.js on ethereum folder
+> node server (or node run dev)
 ```
 ### Example of environment file
 #### .env
@@ -30,3 +31,5 @@ export default {
 }
 ```
 
+## High-Level Workflow
+![alt tag](http://resource.imlewis.com/img/p2p-insurance-workflow.png)
